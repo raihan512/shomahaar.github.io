@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.section-padding{
+    padding: 50px 0px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title h2{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+.section-button{
+    margin-top: 20px;
+    text-align: center;
+}
+.section-button .btn{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 7px 20px;
+    color: #363636;
+    border: 1px solid #e1e1e1;
+}
+.section-button .btn:hover{
+    background-color: burlywood;
+    color: #f8f8f8;
+}
+/* Books Item Start*/
+.book-item{
+    margin-top: 20px;
+}
+.book-item a img{
+    height: 200px;
+    width: auto;
+}
+.book-item .content{
+    color: #363636;
+    margin-top: 30px;
+}
+.book-item .content h5{
+    font-size: 20px;
+}
+.book-item .content p{
+    font-size: 16px;
+}
+/* Books Item End*/
+
+/* Header part */
+.header-part{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 999;
+}
+.navbar{
+    box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
+    padding: 0;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item .active::after,
+.nav-item:hover::after{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.nav-link {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    color: #5f6368;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.nav-link:hover{
+    color: #5f6368;
+}
+
+/* Hero Part */
+.hero{
+    margin-top: 40px;
+}
+.carousel-item img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Books Part */
+.books-part .nav{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.books-part .nav-link{
+    border: 0;
+}
+.books-part .nav-link.active{
+    border-bottom: 2px solid #000;
+}
+.nav-tabs{
+    border: 0;
+}
+/* Subscription */
+.subscription{
+    background-color: #eee;
+    text-align: right;
+}
+.subscription .section-title{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.subscription .section-title h2{
+    font-weight: 500;
+}
+.subscription-form .form-control{
+    width: 25%;
+    display: inline-block;
+    background-color: #eee;
+}
+.subscription-form .btn{
+    color: #fff;
+    background-color: #707070;
+}
+/* Author */
+.auth-img{
+    position: relative;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:  0 auto;
+}
+.auth-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.auth-name{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* Translator */
+.contact-form {
+    text-align: center;
+}
+.contact-form form .btn{
+    color: #fff;
+    margin-top: 10px;
+    background-color: #707070;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+/* Footer */
+.footer{
+    padding: 20px 0 0;
+    background-color: #212529;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer-content i{
+    color: #fff;
+    font-size: 35px;
+}
+
+/* New Book */
+.new-books,
+.all-books{
+    padding: 100px 0;
+}
+.new-books .section-title h2 span,
+.all-books .section-title h2 span{
+    position : relative;
+}
+
+.new-books .section-title h2 span::after,
+.all-books .section-title h2 span::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+/* Author details */
+.author-details{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+.auth-name-img{
+    text-align: center;
+}
+/* Single Book Start */
+.single-book .book-img {
+    text-align: center;
+}
+.single-book .book-content{
+    margin-top: 50px;
+}
+.single-book .book-content h2{
+    font-weight: 900;
+    font-size: 30px;
+    color: #000;
+}
+.single-book .book-content a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+.single-book .book-content .price{
+    font-weight: 600;
+    font-size: 20px;
+}
+.single-book .table tr{
+    border-color: transparent;
+}
+.single-book .table tr td{
+    font-weight: 400;
+    font-size: 18px;
+    color: #4f4f4f;
+}
+.single-book .main-mean{
+    margin-top: 50px;
+    background-color: bisque;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.single-book .main-mean h6{
+    width: 150px;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.single-book .main-mean h6::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+.single-book .main-mean p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+.single-book .buy-book .btn{
+    font-size: 16px;
+    color: #fff;
+}
+/* Single Book End */
+
+/*Author page*/
+#author{
+    margin-top: 100px;
+}
+/* Translator page */
+#translator{
+    margin-top: 100px;
+}
+/* category */
+.category{
+    margin-top: 100px;
+}
+
+/* Contact Page */
+.contact-page{
+    margin-top: 100px;
+}
+.contact-page ul li{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+/* Review */
+.review{
+    height: 100vh;
+    position: relative;
+    background-color: #f8f8f8;
+}
+
+.review .review-content{
+    padding: 10px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* Modal */
+.modal-body {
+    height: 85vh;
+    overflow-y: scroll;
+}

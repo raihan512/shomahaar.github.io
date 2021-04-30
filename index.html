@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>সমাহার - মুলপাতা</title>
+    <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+
+</head>
+
+<body>
+    <!-- Header Part Start -->
+    <div class="header-part">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.jpg" height="25px" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bar"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">মূলপাতা</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="books.html">বইসমূহ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="author.html">লেখক</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="translator.html">অনুবাদক</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">ক্যাটাগরি</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="location.html">প্রাপ্তিস্থান</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">ব্লগ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="review.html">রিভিউ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Header Part End -->
+
+    <!-- Hero Part Start -->
+    <div class="hero">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/slider/1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider/2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider/3.jpg">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Hero Part End -->
+
+    <!-- Books Part Start -->
+    <div class="books-part section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start-->
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>খুঁজে নিন আপনার পরবর্তী বই</h2>
+                    </div>
+                </div>
+                <!-- Section Title End-->
+                <div class="col-md-10 offset-md-1 col-12">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">প্রকাশিত</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">প্রকাশিতব্য</button>
+                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">জনপ্রিয়</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <!-- প্রকাশিত বই  -->
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="ইকরা-বিসমি-রাব্বিক.html">
+                                            <img src="assets/img/books/ikra bismi rabbik.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>ইকরা বিসমি রাব্বিক</h5>
+                                            <p>ড. আয়েজ বিন আব্দুল্লাহ আল-কারনি</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/ilm onnesone.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>ইলম অন্বেষণে সফর</h5>
+                                            <p>ইবনু ইসহাক</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/jokhon porbe na mor chinno.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>যখন পড়বে না মোর পায়ের চিহ্ন এই বাটে</h5>
+                                            <p>মাহমুদ আহমাদ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/rajar moto dekhte.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>রাজার মত দেখতে</h5>
+                                            <p>মনযূর আহমদ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/salahuddin ayyubi.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>মহাবীর সালাহউদ্দিন </h5>
+                                            <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/sikhhito balok.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>নীল পৃথিবীর সবুজ আকাশ</h5>
+                                            <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/sopner cheyeo boro.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>নীল পৃথিবীর সবুজ আকাশ</h5>
+                                            <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/soronio monishi.png" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>নীল পৃথিবীর সবুজ আকাশ</h5>
+                                            <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/souvagger duar.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>নীল পৃথিবীর সবুজ আকাশ</h5>
+                                            <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                            </div>
+                        </div>
+                        <!-- প্রকাশিত বই  -->
+                        <!-- প্রকাশিতব্য বই  -->
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/2.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>নীল পৃথিবীর সবুজ আকাশ</h5>
+                                            <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                            </div>
+                        </div>
+                        <!-- প্রকাশিতব্য বই  -->
+                        <!-- জনপ্রিয় বই -->
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="row">
+                                <!-- Book Item -->
+                                <div class="col-lg-2 col-md-4 col-6">
+                                    <div class="book-item">
+                                        
+                                        <a href="single-book.html">
+                                            <img src="assets/img/books/3.jpg" alt="">
+                                        </a>
+                                        
+                                        <div class="content">
+                                            <h5>নীল পৃথিবীর সবুজ আকাশ</h5>
+                                            <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Book Item -->
+                            </div>
+                        </div>
+                        <!-- জনপ্রিয় বই -->
+                    </div>
+                </div>
+                <!-- Section Button -->
+                <div class="col-12">
+                    <div class="section-button">
+                        <a href="books.html" class="btn">সবগুলো বই দেখুন</a>
+                    </div>
+                </div>
+                <!-- Section Button -->
+            </div>
+        </div>
+    </div>
+    <!-- Books Part End -->
+
+    <!-- Published Books Start -->
+    <div class="published-books section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start-->
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>আমাদের প্রকাশিত বইসমূহ</h2>
+                    </div>
+                </div>
+                <!-- Section Title End-->
+                <div class="col-md-10 offset-md-1 col-12">
+                    <div class="row">
+                        <!--Published Book Item -->
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="book-item">
+                                
+                                <a href="single-book.html">
+                                    <img src="assets/img/books/4.jpg" alt="">
+                                </a>
+                                
+                                <div class="content">
+                                    <h5>নীল পৃথিবীর সবুজ আকাশ</h5>
+                                    <p>আব্দুল্লাহ মাহমুদ নজীব</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Published Book Item -->
+                    </div>
+                </div>
+                <!-- Section Button -->
+                <div class="col-12">
+                    <div class="section-button">
+                        <a href="books.html" class="btn">আমাদের সকল প্রকাশিত বই দেখুন</a>
+                    </div>
+                </div>
+                <!-- Section Button -->
+            </div>
+        </div>
+    </div>
+    <!-- Published Books End -->
+
+    <!-- Subscription Start -->
+    <div class="subscription section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start-->
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>পরবর্তী বই প্রকাশের সকল
+                            <br>
+                            আপডেট পেতে সাবস্ক্রাইব করুন
+                        </h2>
+                    </div>
+                </div>
+                <!-- Section Title End-->
+                <div class="col-12">
+                    <form action="" class="subscription-form">
+                        <input type="text" class="form-control" placeholder="ফোন নম্বর বা ইমেইল দিন">
+                        <button type="submit" class="btn">সাবস্ক্রাইব করুন</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscription End -->
+
+    <!-- Author Start -->
+    <div class="author section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start-->
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>সমাহারের লেখকবৃন্দ </h2>
+                    </div>
+                </div>
+                <!-- Section Title End-->
+                <div class="col-md-10 offset-md-1 col-12">
+                    <div class="row">
+                    <!-- Writers -->
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="auth-img">
+                            <a href="#">
+                                <img src="assets/img/author/2.jpeg" alt="">
+                            </a>
+                        </div>
+                        <p class="auth-name">
+                            আবু মুআবিয়া ইসমাইল কামদার
+                        </p>
+                    </div>
+                    <!-- Writers -->
+                    <!-- Section Button -->
+                <div class="col-12">
+                    <div class="section-button">
+                        <a href="#" class="btn">লেখকবৃন্দদের দেখুন</a>
+                    </div>
+                </div>
+                <!-- Section Button -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Author End -->
+
+    <!-- Translator Start -->
+    <div class="translator section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start-->
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>সমাহারের অনুবাদকবৃন্দ</h2>
+                    </div>
+                </div>
+                <!-- Section Title End-->
+                <div class="col-md-10 offset-md-1 col-12">
+                    <div class="row">
+                        <!-- Writers -->
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="auth-img">
+                            <a href="#">
+                                <img src="assets/img/translator/1.jpeg" alt="">
+                            </a>
+                        </div>
+                        <p class="auth-name">
+                            আবু মুআবিয়া ইসমাইল কামদার
+                        </p>
+                    </div>
+                    <!-- Writers -->
+                    <!-- Section Button -->
+                <div class="col-12">
+                    <div class="section-button">
+                        <a href="#" class="btn">অনুবাদকবৃন্দ দেখুন</a>
+                    </div>
+                </div>
+                <!-- Section Button -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Translator End -->
+
+    <!--Contact Form STart -->
+    <div class="contact-form section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start-->
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>সমাহারকে লিখুন</h2>
+                        <p>সমাহার পাবলিকেশন্স সম্পর্কে আপনার মতামত লিখুন</p>
+                    </div>
+                </div>
+                <!-- Section Title End-->
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-5 col-12 mt-3  offset-md-1">
+                            <input type="text" class="form-control" placeholder="আপনার নাম লিখুন">
+                        </div>
+                        <div class="col-md-5 col-12 mt-3">
+                            <input type="email" class="form-control" placeholder="আপনার ইমেইল দিন">
+                        </div>
+                        <div class="col-md-10 col-12 offset-md-1 mt-3">
+                            <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="আপনার মন্তব্য লিখুন"></textarea>
+                        </div>
+                        <div class="col-md-10 col-12 offset-md-1">
+                            <button type="submit" class="btn d-block">বার্তা প্রেরণ করুন</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Contact Form End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; সমাহার পাবলিকেশন্স</p>
+                </div>
+                <div class="social-icon">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Javascript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
